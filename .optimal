@@ -1,0 +1,25 @@
+projectId: project1
+name: JacksonProject
+description: Test optimal project for applications
+displayImage: .displayImage.png
+applications:
+    - appId: gql2
+      name: gql2
+      description: test
+      directory: graphql2
+      appType: OR_DDK
+      apiType: GQL
+      language: GO
+      version: "1"
+      port: 5100
+      host: localhost
+      endpointSchema: ""
+      connectSchema: ""
+      gqlSchemas:
+        - tes2t2.graphqls
+      fdkConfigName: ""
+      connections: []
+      endpoints: []
+      fdkConfig: null
+environments: []
+globalFdkConfig: null
